@@ -2,3 +2,4 @@ bucket         = "YOUR_UNIQUE_TFSTATE_BUCKET_NAME"
 region         = "us-west-2"
 dynamodb_table = "terraform-state-locks"
 encrypt        = true
+key            = "use-cases/05-identity-bootstrap-automation/aws/oidc-bootstrap/terraform.tfstate"
