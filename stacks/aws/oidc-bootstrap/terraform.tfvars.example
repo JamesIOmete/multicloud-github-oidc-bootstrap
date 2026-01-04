@@ -1,0 +1,11 @@
+aws_region  = "us-east-1"
+github_org  = "YOUR_GITHUB_ORG_OR_USER"
+github_repo = "YOUR_REPO_NAME"
+
+# Optional: override allowed subjects
+# subject_claim_patterns = [
+#   "repo:YOUR_GITHUB_ORG_OR_USER/YOUR_REPO_NAME:ref:refs/heads/main",
+# ]
+
+# Demo-friendly (NOT least privilege): AdministratorAccess
+# managed_policy_arns = ["arn:aws:iam::aws:policy/AdministratorAccess"]
