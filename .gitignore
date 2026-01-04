@@ -17,3 +17,8 @@ terraform.rc
 .vscode/
 .idea/
 .DS_Store
+
+# Terraform local state (never commit)
+**/.terraform/
+**/terraform.tfstate
+**/terraform.tfstate.*

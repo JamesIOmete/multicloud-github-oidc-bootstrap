@@ -6,4 +6,4 @@ fmt:
 	terraform fmt -recursive
 
 validate:
-	./scripts/ci_validate.sh
+	./tools/ci/validate.sh
